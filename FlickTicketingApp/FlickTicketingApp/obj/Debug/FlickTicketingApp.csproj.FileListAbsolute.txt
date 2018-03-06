@@ -1,0 +1,10 @@
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\bin\Debug\FlickTicketingApp.exe.config
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\bin\Debug\FlickTicketingApp.exe
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\bin\Debug\FlickTicketingApp.pdb
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.csprojResolveAssemblyReference.cache
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.Form1.resources
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.Properties.Resources.resources
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.csproj.GenerateResource.cache
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.csproj.CoreCompileInputs.cache
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.exe
+C:\Users\Calum\source\repos\FlickTicketingApp\FlickTicketingApp\obj\Debug\FlickTicketingApp.pdb
