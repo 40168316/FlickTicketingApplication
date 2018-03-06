@@ -84,7 +84,7 @@ namespace FlickTicketingApp
             // Plus equal (runningTotal = runningTotal + value) the value passed in to the running total
             overallTotal += value;
             // Update the label wi
-            overallTotalLabel.Text = "Overall Total: £" + overallTotal.ToString();
+            overallTotalLabel.Text = "Overall Total: £" + overallTotal.ToString() + "0";
         }
 
         // Function which is used to add a value to the running total - also updates the running total label
@@ -93,7 +93,7 @@ namespace FlickTicketingApp
             // Plus equal (runningTotal = runningTotal + value) the value passed in to the running total
             runningTotal += value;
             // Update the label wi
-            totalLabel.Text = "Running Total: £" + runningTotal.ToString();
+            totalLabel.Text = "Running Total: £" + runningTotal.ToString() + "0";
         }
 
         // If Add Ticket is pressed
@@ -167,7 +167,7 @@ namespace FlickTicketingApp
                         moneySavedBasedOnOffers += (5.40 * 2);
                     }
                     // Update money saved label
-                    totalSavingsLabel.Text = "Total Savings: £" + moneySavedBasedOnOffers.ToString();
+                    totalSavingsLabel.Text = "Total Savings: £" + moneySavedBasedOnOffers.ToString() + "0";
 
                     // Clear current options in radio/check boxes
                     concessionRadioButton.Checked = false;
@@ -231,7 +231,7 @@ namespace FlickTicketingApp
             else
             {
                 // Messagebox showing overall total, tickets to pay for, free tickets and saving
-                if (MessageBox.Show("Your final total is £" + overallTotal + ".You are required to pay for " + numberOfTicketsToPayFor + " tickets will gaining " + numberOfFreeTickets + " free tickets which saves you £" + moneySavedBasedOnOffers + "!", "Pay and Close", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Your final total is £" + overallTotal + "0 .You are required to pay for " + numberOfTicketsToPayFor + " tickets will gaining " + numberOfFreeTickets + " free tickets which saves you £" + moneySavedBasedOnOffers + "0!", "Pay and Close", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     // If user pressed ok - exit application
                     System.Windows.Forms.Application.Exit();
